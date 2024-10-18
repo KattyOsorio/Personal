@@ -1,0 +1,15 @@
+using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+class Program
+{
+    static void Main()
+    {
+        //hola mundo en c# 
+
+        Console.WriteLine("Hola mundo!!");
+
+
+    }
+}
+
