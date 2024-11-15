@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Universidad</title>
+    <link href="css/index.css" rel="stylesheet">
+   
+
+
+</head>
+<body>
+ 
+    <h1>Universidad</h1>
+
+    <div>
+        <h2>Cursos</h2>
+        <!-- Botones cursos -->
+        <div class="button-group">
+            <a class="btn btn-primary m-2" th:href="@{/cursos}">Ver cursos</a>
+            <a class="btn btn-primary m-2" th:href="@{/cursos/crear}">Crear curso</a>
+        </div>
+      
+
+        <h2>Estudiantes</h2>
+        <!-- Botones estudiantes -->
+        <div class="button-group">
+            <a class="btn btn-primary m-2" th:href="@{/estudiantes}">Ver estudiantes</a>
+            <a class="btn btn-primary m-2" th:href="@{/estudiantes/crear}">Crear estudiante</a>
+        </div>
+      
+
+        <h2>Materias</h2>
+        <!-- Botones materias -->
+        <div class="button-group">
+            <a class="btn btn-primary m-2" th:href="@{/materias}">Ver materias</a>
+            <a class="btn btn-primary m-2" th:href="@{/materias/crear}">Crear materia</a>
+        </div>
+      
+
+        <h2>Profesores</h2>
+        <!-- Botones profesores -->
+        <div class="button-group">
+            <a class="btn btn-primary m-2" th:href="@{/profesores}">Ver profesores</a>
+            <a class="btn btn-primary m-2" th:href="@{/profesores/crear}">Crear profesor</a>
+        </div>
+        
+
+        <h2>Salones</h2>
+        <!-- Botones salones -->
+        <div class="button-group">
+            <a class="btn btn-primary m-2" th:href="@{/salones}">Ver salones</a>
+            <a class="btn btn-primary m-2" th:href="@{/salones/crear}">Crear salón</a>
+        </div>
+       
+    </div>
+
+</body>
+</html>
